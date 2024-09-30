@@ -1,21 +1,15 @@
 <h1>DOTFILES</h1>
 <h2>WORK ENVIRONMENT</h2>
 <h3>Install utilities</h3>
-<code>
-sudo eopkg install xclip xsel <br>
-sudo eopkg install neofetch fastfetch ifconfig unzip
-</code>
+<code>sudo eopkg install xclip xsel <br>
+sudo eopkg install neofetch fastfetch ifconfig unzip</code>
 <h3>Install environments</h3>
-<code>
-sudo eopkg install -c system.devel <br>
+<code>sudo eopkg install -c system.devel <br>
 sudo eopkg install ruby-devel <br>
 sudo eopkg install sqlite3-devel <br>
-sudo eopkg install nodejs
-</code>
+sudo eopkg install nodejs</code>
 <h3>Install package managers</h3>
-<code>
-sudo eopkg install gem snapd
-</code>
+<code>sudo eopkg install gem snapd</code>
 <h2>ZSH</h2>
 <h3>Install zsh</h3>
 <code>sudo eopkg install zsh</code>
