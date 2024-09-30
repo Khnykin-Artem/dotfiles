@@ -24,24 +24,20 @@ sudo eopkg install gem snapd
 <h3>Install Powerlevel10k</h3>
 <code>git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k</code>
 <h3>Install plugins</h3>
-<code>
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting <br>
+<code>git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting <br>
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions <br>
 git clone https://github.com/MichaelAquilina/zsh-you-should-use.git $ZSH_CUSTOM/plugins/you-should-use <br>
 git clone https://github.com/agkozak/zsh-z ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-z <br>
 git clone https://github.com/zsh-users/zsh-history-substring-search ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-history-substring-search <br>
 sudo eopkg install fzf <br>
-sudo gem install colorls
-</code>
+sudo gem install colorls</code>
 <h3>Clone config files</h3>
-<code>
-cd ~ <br>
+<code>cd ~ <br>
 git clone https://github.com/Khnykin-Artem/dotfiles.git <br>
 cd dotfiles <br>
 sudo mv ~/dotfiles/.zshrc ~/ <br>
 sudo mv ~/dotfiles/.bashrc ~/ <br>
 sudo mv ~/dotfiles/.p10k.zsh ~/ <br>
-sudo mv ~/dotfiles/usr/share/fonts/* /usr/share/fonts/
-</code>
+sudo mv ~/dotfiles/usr/share/fonts/* /usr/share/fonts/</code>
 <h3>ZSH final</h3>
 <code>sudo source ~/.zshrc</code>
