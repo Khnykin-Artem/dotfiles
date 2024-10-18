@@ -1,5 +1,5 @@
 <h1>DOTFILES</h1>
-<h2>WORK ENVIRONMENT</h2>
+<h2>DEV ENVIRONMENT</h2>
 <h3>Install utilities</h3>
 <code>
 sudo eopkg install xclip xsel <br>
